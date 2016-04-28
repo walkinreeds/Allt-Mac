@@ -6,10 +6,10 @@
 "1Xt-HY-uBw.title" = "WebShell";
 
 /* Class = "NSMenuItem"; title = "Quit WebShell"; ObjectID = "4sb-4s-VLi"; */
-"4sb-4s-VLi.title" = "Verlaat WebShell";
+"4sb-4s-VLi.title" = "Verlaat Allt";
 
 /* Class = "NSMenuItem"; title = "About WebShell"; ObjectID = "5kV-Vb-QxS"; */
-"5kV-Vb-QxS.title" = "Over WebShell";
+"5kV-Vb-QxS.title" = "Over Allt";
 
 /* Class = "NSMenuItem"; title = "Smart Dashes"; ObjectID = "AYs-Jm-OWX"; */
 "AYs-Jm-OWX.title" = "Slimme Dashes";
@@ -39,7 +39,7 @@
 "HAk-2k-oTs.title" = "Plakken";
 
 /* Class = "NSWindow"; title = "WebShell"; ObjectID = "IQv-IB-iLA"; */
-"IQv-IB-iLA.title" = "WebShell";
+"IQv-IB-iLA.title" = "Allt";
 
 /* Class = "NSMenuItem"; title = "Transformations"; ObjectID = "Jms-Vz-UXk"; */
 "Jms-Vz-UXk.title" = "Transformaties";
@@ -54,7 +54,7 @@
 "NQd-4F-F7u.title" = "Spellingscontrole";
 
 /* Class = "NSMenuItem"; title = "Hide WebShell"; ObjectID = "Olw-nP-bQN"; */
-"Olw-nP-bQN.title" = "Verberg WebShell";
+"Olw-nP-bQN.title" = "Verberg Allt";
 
 /* Class = "NSMenuItem"; title = "Jump to Selection"; ObjectID = "Owh-gY-yb3"; */
 "Owh-gY-yb3.title" = "Ga naar sectie";

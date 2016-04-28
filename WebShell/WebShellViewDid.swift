@@ -14,6 +14,8 @@ import Darwin
 // See: #43
 extension ViewController {
 	override func viewDidAppear() {
+        view.window?.titlebarAppearsTransparent = true
+        view.window?.backgroundColor = NSColor.clearColor()
 		if (firstAppear) {
 			initWindow()
 		}

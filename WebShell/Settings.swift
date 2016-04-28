@@ -19,27 +19,27 @@ class WebShell {
 	 */
 	var Settings: [String: Any] = [
 		// Url to browse to.
-		"url": "http://djyde.github.io/WebShell/WebShell/",
+		"url": "https://allt.in",
 
 		// set the app title
-		"title": NSBundle.mainBundle().infoDictionary!["CFBundleName"] as! String,
+		"title": "Allt",
 
 		// if you want to use the default one then leave it default || default = title/version based on Safari/AppleWebKit (KHTML, like Gecko)
 		// otherwise change it to a useragent you want.
 		"useragent": "default",
 
 		// Do you want to use the document title? (Default: true)
-		"useDocumentTitle": true,
+		"useDocumentTitle": false,
 
 		// Multilanguage loading text!
 		"launchingText": NSLocalizedString("Launching...", comment: "Launching..."),
 
 		// Note that the window min height is 640 and min width is 1000 by default. You could change it in Main.storyboard
-		"initialWindowHeight": 640,
+		"initialWindowHeight": 670,
 		"initialWindowWidth": 1000,
 
 		// Open target=_blank in a new screen? (Default: false)
-		"openInNewScreen": false,
+		"openInNewScreen": true,
 
 		// Do you want a loading bar? (Default: true)
 		"showLoadingBar": true,

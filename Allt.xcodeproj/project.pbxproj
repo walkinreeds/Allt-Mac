@@ -34,7 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		25B222571C25328E00F848B7 /* WebShell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebShell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B222571C25328E00F848B7 /* Allt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Allt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B2225A1C25328E00F848B7 /* WebShellAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebShellAppDelegate.swift; sourceTree = "<group>"; };
 		25B2225C1C25328E00F848B7 /* WebShellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebShellViewController.swift; sourceTree = "<group>"; };
 		25B2225E1C25328E00F848B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,23 +77,23 @@
 		25B2224E1C25328E00F848B7 = {
 			isa = PBXGroup;
 			children = (
-				25B222591C25328E00F848B7 /* WebShell */,
+				25B222591C25328E00F848B7 /* Allt */,
 			);
 			sourceTree = "<group>";
 		};
 		25B222581C25328E00F848B7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				25B222571C25328E00F848B7 /* WebShell.app */,
+				25B222571C25328E00F848B7 /* Allt.app */,
 			);
 			name = Products;
 			path = ..;
 			sourceTree = "<group>";
 		};
-		25B222591C25328E00F848B7 /* WebShell */ = {
+		25B222591C25328E00F848B7 /* Allt */ = {
 			isa = PBXGroup;
 			children = (
-				6E6055631C5EA0FC0099AD18 /* WebShell Core */,
+				6E6055631C5EA0FC0099AD18 /* Allt Core */,
 				6E6055601C5EA04F0099AD18 /* HTML5 Support */,
 				6EE64A951CCBEAA000E9DA9B /* Settings.swift */,
 				6E2DD7DD1CC56209000FA61A /* Credits.rtf */,
@@ -103,6 +103,7 @@
 				25B222631C25328E00F848B7 /* Info.plist */,
 				25B222581C25328E00F848B7 /* Products */,
 			);
+			name = Allt;
 			path = WebShell;
 			sourceTree = "<group>";
 		};
@@ -116,7 +117,7 @@
 			name = "HTML5 Support";
 			sourceTree = "<group>";
 		};
-		6E6055631C5EA0FC0099AD18 /* WebShell Core */ = {
+		6E6055631C5EA0FC0099AD18 /* Allt Core */ = {
 			isa = PBXGroup;
 			children = (
 				25B2225A1C25328E00F848B7 /* WebShellAppDelegate.swift */,
@@ -136,15 +137,15 @@
 				6E2DD7DF1CC56522000FA61A /* WebShelllDownloadManager.swift */,
 				25B2225C1C25328E00F848B7 /* WebShellViewController.swift */,
 			);
-			name = "WebShell Core";
+			name = "Allt Core";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		25B222561C25328E00F848B7 /* WebShell */ = {
+		25B222561C25328E00F848B7 /* Allt */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 25B222661C25328E00F848B7 /* Build configuration list for PBXNativeTarget "WebShell" */;
+			buildConfigurationList = 25B222661C25328E00F848B7 /* Build configuration list for PBXNativeTarget "Allt" */;
 			buildPhases = (
 				25B222531C25328E00F848B7 /* Sources */,
 				25B222541C25328E00F848B7 /* Frameworks */,
@@ -154,9 +155,9 @@
 			);
 			dependencies = (
 			);
-			name = WebShell;
+			name = Allt;
 			productName = WebShell;
-			productReference = 25B222571C25328E00F848B7 /* WebShell.app */;
+			productReference = 25B222571C25328E00F848B7 /* Allt.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -173,7 +174,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 25B222521C25328E00F848B7 /* Build configuration list for PBXProject "WebShell" */;
+			buildConfigurationList = 25B222521C25328E00F848B7 /* Build configuration list for PBXProject "Allt" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -186,7 +187,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				25B222561C25328E00F848B7 /* WebShell */,
+				25B222561C25328E00F848B7 /* Allt */,
 			);
 		};
 /* End PBXProject section */
@@ -344,8 +345,8 @@
 				INFOPLIST_FILE = WebShell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.djyde.WebShell;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = skcript.allt.in;
+				PRODUCT_NAME = Allt;
 			};
 			name = Debug;
 		};
@@ -357,15 +358,15 @@
 				INFOPLIST_FILE = WebShell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.djyde.WebShell;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = skcript.allt.in;
+				PRODUCT_NAME = Allt;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		25B222521C25328E00F848B7 /* Build configuration list for PBXProject "WebShell" */ = {
+		25B222521C25328E00F848B7 /* Build configuration list for PBXProject "Allt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25B222641C25328E00F848B7 /* Debug */,
@@ -374,7 +375,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		25B222661C25328E00F848B7 /* Build configuration list for PBXNativeTarget "WebShell" */ = {
+		25B222661C25328E00F848B7 /* Build configuration list for PBXNativeTarget "Allt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25B222671C25328E00F848B7 /* Debug */,
